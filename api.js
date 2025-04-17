@@ -2,7 +2,7 @@ import axios from "axios";
 const API_URL="https://cricket-live-line1.p.rapidapi.com/playerRanking/1";
 const HEADERS=[
   'x-rapidapi-host: cricket-live-line1.p.rapidapi.com' 
-	'x-rapidapi-key: 1571d35644mshfb78c14613eb826p14fbbejsn85553404c40e'
+  'x-rapidapi-key: 1571d35644mshfb78c14613eb826p14fbbejsn85553404c40e'
 ];
 export default getPointsTable=async() => {
   const options = {
