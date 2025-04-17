@@ -1,4 +1,5 @@
 import Hero from "../components/hero";
+import TeamStanding from "../components/TeamStanding";
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-[url('stadium.jpg')] bg-cover bg-center bg-fixed">
@@ -7,8 +8,11 @@ export default function HomePage() {
           <div className="bg-opacity-90">
             <Hero />
           </div>
+          <div className="bg-opacity-90">
+            <TeamStanding />
+          </div>
         </div>
       </div>
    </div>
-    );
+  );
 }
