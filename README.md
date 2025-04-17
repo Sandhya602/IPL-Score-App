@@ -9,3 +9,4 @@ ui-button.js,hero.js,header.js,App.js,index.js,TeamStanding.jsx,loader.jsx,Stats
 page-HomePage.jsx
 services-api.js
 styles-style.css,footer.css
+footer.css and footer.jsx is for constructing small and large size windows in the IPL Score App
