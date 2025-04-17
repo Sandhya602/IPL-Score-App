@@ -1,1 +1,11 @@
+// Stadium.js
+function Stadium() {
+  return (
+    <div>
+      <img src="/stadium.jpg" alt="IPL Stadium" style={{ width: "100%", height: "auto" }} />
+    </div>
+  );
+}
+
+export default Stadium;
 
